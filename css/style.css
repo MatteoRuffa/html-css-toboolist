@@ -13,7 +13,7 @@ body {
 
 .conteiner {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 /* header */
@@ -30,16 +30,6 @@ header {
 }
 
 /* main */
-.button {
-    padding: 5px 10px;
-    margin: 4px 2px;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    border-color: rgba(0, 0, 0, 0.5);
-}
 
 form {
     padding: 5px 60px;
@@ -49,15 +39,39 @@ form {
     border-top-right-radius: 8px;
 }
 
+h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.button {
+    padding: 5px 10px;
+    margin: 4px 2px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    border-color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+}
+
+.button-form {
+    padding: 5px 10px;
+    margin: 4px 2px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: lightgray;
+}
+
 nav ul {
     list-style-type: none;
     padding: 4px;
-    line-height: 40px;
+    /* line-height: 40px; */
 }
 
-nav{
-
-}
 
 /* background utility */
 .bg-white {
@@ -68,26 +82,27 @@ nav{
     background-color: #47ADF1;
 }
 
-.bg-violet{
+.bg-violet {
 
     background-color: #9C72E4;
 }
 
-.bg-green{
+.bg-green {
     background-color: #64C0A9;
 }
 
-.bg-orange{
+.bg-orange {
     background-color: #F29E33;
 }
 
-.bg-pink{
+.bg-pink {
     background-color: #D863A0;
 }
 
-.bg-lightgreen{
+.bg-lightgreen {
     background-color: #B0C926;
 }
+
 /* text utility */
 .text-white {
     color: white;
@@ -101,10 +116,16 @@ nav{
     color: #454952;
 }
 
-.text-formatting{
-    line-height: 30px;
-    /* padding: 20px 60px 0px 60px; */
-    font-weight: 500;
+.text-formatting {
+    line-height: 40px;
+    padding: 25px 60px 0px 60px;
+    font-weight: 700;
+}
+
+.text-page-closing {
+    line-height: 40px;
+    padding: 25px 60px 25px 60px;
+    font-weight: 700;
 }
 
 .circle-icon-green {
@@ -116,9 +137,10 @@ nav{
     color: #86D1C0;
     font-size: small;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 16px;
     display: inline-block;
     vertical-align: text-top;
+    margin-right: 8px;
 }
 
 .circle-icon-red {
@@ -133,4 +155,5 @@ nav{
     line-height: 16px;
     display: inline-block;
     vertical-align: text-top;
+    margin-right: 8px;
 }
