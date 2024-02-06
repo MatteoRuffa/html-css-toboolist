@@ -16,7 +16,6 @@ body {
     max-width: 800px;
 }
 
-
 /* header */
 .position {
     vertical-align: middle;
@@ -37,6 +36,7 @@ header {
     text-align: center;
     display: inline-block;
     cursor: pointer;
+    border: none;
     border-radius: 8px;
     border-color: rgba(0, 0, 0, 0.5);
 }
@@ -49,12 +49,14 @@ form {
     border-top-right-radius: 8px;
 }
 
-main div {
-    padding: 5px 60px;
-}
-
 nav ul {
     list-style-type: none;
+    padding: 4px;
+    line-height: 40px;
+}
+
+nav{
+
 }
 
 /* background utility */
@@ -66,6 +68,26 @@ nav ul {
     background-color: #47ADF1;
 }
 
+.bg-violet{
+
+    background-color: #9C72E4;
+}
+
+.bg-green{
+    background-color: #64C0A9;
+}
+
+.bg-orange{
+    background-color: #F29E33;
+}
+
+.bg-pink{
+    background-color: #D863A0;
+}
+
+.bg-lightgreen{
+    background-color: #B0C926;
+}
 /* text utility */
 .text-white {
     color: white;
@@ -79,16 +101,36 @@ nav ul {
     color: #454952;
 }
 
+.text-formatting{
+    line-height: 30px;
+    /* padding: 20px 60px 0px 60px; */
+    font-weight: 500;
+}
+
 .circle-icon-green {
     border: 1px solid #86D1C0;
     border-radius: 50%;
-    width: 19px;
-    height: 19px;
+    width: 18px;
+    height: 18px;
     text-align: center;
     color: #86D1C0;
     font-size: small;
     font-weight: 700;
-    line-height: 19px;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.circle-icon-red {
+    border: 1px solid #EB5851;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    color: #EB5851;
+    font-size: small;
+    font-weight: 700;
+    line-height: 16px;
     display: inline-block;
     vertical-align: text-top;
 }
