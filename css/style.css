@@ -1,23 +1,66 @@
 /* general rules */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Roboto", sans-serif;
+    background-color: #F6F8F9;
+}
+
+.conteiner{
+    margin: 0 auto;
+    width: 60%;
 }
 
 /* header */
-img.a{
+img.a {
     vertical-align: middle;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-header{
+
+header {
     padding: 1em 2em;
 }
 
 /* main */
+.button {
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+   border-color: rgba(0,0,0,0.5);
+}
+
+form{
+    padding: 5px 60px;
+    margin: 40px 5px 5px 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* background utility */
+.bg-white{
+    background-color: white;
+}
+
+.bg-blue{
+    background-color: #47ADF1;
+}
+
+/* text utility */
+.text-white{
+    color: white;
+}
+
+.text-gray{
+    color: gray;
+}
