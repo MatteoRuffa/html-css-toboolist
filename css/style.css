@@ -5,3 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* header */
+img.a{
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+}
+header{
+    padding: 1em 2em;
+}
+
+/* main */
