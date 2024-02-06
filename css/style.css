@@ -52,7 +52,6 @@ h2{
     cursor: pointer;
     border: none;
     border-radius: 12px;
-    border-color: rgba(0, 0, 0, 0.5);
     font-size: 11px;
 }
 
@@ -69,7 +68,6 @@ h2{
 nav ul {
     list-style-type: none;
     padding: 4px;
-    /* line-height: 40px; */
 }
 
 
